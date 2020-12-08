@@ -128,7 +128,7 @@ class Game {
     }
 
     if(keyWentUp(UP_ARROW) && player.index !== null){
-      player.distance =-10
+     
       player.update();
       runway.velocityX =0;
      
